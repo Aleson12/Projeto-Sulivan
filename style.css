@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonte/Pacifico-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.header-nav {
+    height: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav>ul {
+    display: flex;
+    column-gap: 40px;
+    height: 43px;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-nav>ul {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -18px;
+    gap: 40px;
+    font-size: 14px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.home {
+    font-weight: 600;
+    border-bottom: 1px solid #34639E;
+    margin: 1px;
+    color: #34639E;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+}
+
+.navig {
+    margin: 1px;
+    color: #34639E;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+
+.navig:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #34639E;
+}
+
+.parallax {
+    background-image: url('img/background.jpg');
+    height: 546px;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.centerFlex {
+    flex-direction: column;
+    min-height: 109%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.span0 {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    height: 46px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.span1 {
+    font-family: 'Pacifico';
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+.depositions {
+    height: 208px;
+    background-color: #D6D3C6;
+}
+
+.subDepositions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.subDepositions>div>h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #2c3e50;
+    font-size: 36px;
+}
+
+q {
+    color: #444468;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.subDepositions>a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    text-decoration: none;
+    background-color: #219959;
+}
+
+.subDepositions>a:hover {
+    background-color: #4ba174;
+    transition: 0.1s ease-out;
+}
+
+.teste {
+    height: 280px;
+}
+
+@media only screen and (max-width:944px) {
+    nav>ul {
+        height: 39px;
+    }
+
+    .navig:hover {
+        padding-bottom: 0px;
+    }
+}
+
+.positionSec {
+    display: flex;
+    margin: 102px 0px 102px 0px;
+    gap: 16px;
+}
+
+.positionSec>div>img {
+    width: 450px;
+    height: 299px;
+}
+
+
+.positionSec>div>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #219959;
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.subContainer {
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.text>h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.text>p {
+    word-break: break-word;
+    font-family: 'Ubuntu';
+    color: #444444;
+    font-size: 18px;
+}
+
+.bttn {
+    display: flex;
+    height: 25%;
+    align-items: flex-end;
+}
+
+.bttn>a {
+    background-color: #219959;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.bttn>a:hover {
+    background-color: #4ba174;
+    transition: 0.1s ease-out;
+}
+
+.negrt {
+    font-weight: 700;
+}
+
+.imgCity {
+    background-image: url("img/city.png");
+    height: 368px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer {
+    height: 422px;
+    background-color: #D6D3C6;
+}
+
+footer>.imgPos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 51px;
+}
+
+.footPos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: #444444;
+    font-size: 18px;
+    margin-top: 41px;
+
+}
+
+.espac {
+    margin-top: 20px;
+}
+
+.footPos>hr {
+    width: 177px;
+    margin: 0 auto;
+    border-bottom: black;
+    border-right: black;
+}
+
+.number {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+address {
+    color: #808080;
+    font-style: normal;
+}
+
+.positionLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 22px;
+    gap: 5px;
+}
+
+.fa-brands {
+    font-family: "Font Awesome 6 Brands";
+}
+
+.img-div {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-svg {
+
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pai {
+
+    width: 150px;
+    height: 100px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.positionLink>div {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1166px) {
+    .positionSec {
+        display: block;
+        word-break: break-all;
+    }
+
+    .positionSec>.sec {
+        gap: 30px;
+    }
+
+    .container {
+        max-width: 92%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header-nav {
+        justify-content: center;
+    }
+}
